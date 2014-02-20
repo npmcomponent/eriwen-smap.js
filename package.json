@@ -1,29 +1,16 @@
 {
-  "name": "smap",
-  "description": "A forward polyfill with ES6 Map utilities",
-  "author": "Eric Wendelin <me@eriwen.com> (http://eriwen.com)",
+  "name": "eriwen-smap.js",
+  "description": "A forward polyfill for ES6 Maps",
   "version": "0.2.0",
-  "keywords": ["es6", "harmony", "map", "shim", "polyfill"],
-  "homepage": "http://eriwen.github.com/smap.js/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/eriwen/smap.js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/eriwen/smap.js/issues"
-  },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/eriwen/smap.js/blob/master/LICENSE"
-  }],
-  "main": "./smap.js",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
+  "keywords": [
+    "es6",
+    "harmony",
+    "map",
+    "shim",
+    "polyfill"
+  ],
   "dependencies": {
-    "es6-map-shim": ">= 0.2.1"
+    "eriwen-es6-map-shim": "git://github.com/npmcomponent/eriwen-es6-map-shim.git"
   },
-  "scripts": {
-    "test": "make jstd"
-  }
+  "license": "MIT"
 }
